@@ -1,0 +1,45 @@
+name: flutter_application_3
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  
+  geolocator: ^8.2.1
+  url_launcher: ^6.1.2
+  permission_handler: ^11.0.1
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    
+    - sets/images/
+    
+    
+ 
+  fonts:
+    - family: Muli
+      fonts:
+        - asset: sets/fonts/Muli.ttf
+        - asset: sets/fonts/Muli-ExtraLight.ttf
+          weight: 100
+        - asset: sets/fonts/Muli-Light.ttf
+          weight: 300
+        - asset: sets/fonts/Muli-SemiBold.ttf
+          weight: 700
+    - family: Quicksand
+      fonts:
+        - asset: sets/fonts/Quicksand-Regular.otf
+   
+  
+
